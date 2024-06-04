@@ -23,6 +23,7 @@ constexpr double inf = 1 >> 20;
 struct GridNode;
 typedef GridNode *GridNodePtr;
 
+
 struct GridNode
 {
     enum enum_state
