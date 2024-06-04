@@ -1,0 +1,34 @@
+%YAML:1.0
+---
+# grid map origin point
+grid_map_origin_point_x: 0.0
+grid_map_origin_point_y: 0.0
+grid_map_origin_point_z: 0.0
+
+# number of grids of grid map on three axis direction
+map_size_x: 2000.0
+map_size_y: 4000.0
+map_size_z: 2000.0
+
+# inflation radius of obstacle
+inflation_radius: 50.0
+
+# size of a grid described in mm unit
+resolution: 10.0
+
+# 初始化控制点间的最小间隔
+ctrl_pt_interval: 16.0
+
+# 准均匀B样条时间节点间隔
+time_interval: 5.0
+
+# If the distance between target and start plan point smaller than this thresh, stop planning. 
+min_plan_dist: 100.0
+
+# the max distance of control point on init polynomial path
+max_control_point_dist: 30.0
+
+weight_s_acc: 0.3
+weight_s: 0.6
+weight_c: 0.1
+safe_dist: 13

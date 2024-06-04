@@ -1,0 +1,2 @@
+Invoking command in '/home/weiwei/Desktop/project/path_planner/build/path_planner': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/weiwei/Desktop/project/path_planner/src/path_planner -DCMAKE_INSTALL_PREFIX=/home/weiwei/Desktop/project/path_planner/install/path_planner
+Invoked command in '/home/weiwei/Desktop/project/path_planner/build/path_planner' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/weiwei/Desktop/project/path_planner/src/path_planner -DCMAKE_INSTALL_PREFIX=/home/weiwei/Desktop/project/path_planner/install/path_planner

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interface/srv/PathPlan.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module interface {
+  module srv {
+    struct PathPlan_Request {
+      geometry_msgs::msg::Point start_position;
+
+      geometry_msgs::msg::Vector3 start_velocity;
+
+      geometry_msgs::msg::Point end_position;
+
+      geometry_msgs::msg::Vector3 end_velocity;
+    };
+    struct PathPlan_Response {
+      sequence<geometry_msgs::msg::Point> control_points;
+
+      int16 degree;
+
+      double knot_interval;
+
+      boolean success;
+    };
+  };
+};

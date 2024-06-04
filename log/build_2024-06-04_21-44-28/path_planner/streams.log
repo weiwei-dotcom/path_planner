@@ -1,0 +1,251 @@
+[0.009s] Invoking command in '/home/weiwei/Desktop/project/path_planner/build/path_planner': AMENT_PREFIX_PATH=/home/weiwei/Desktop/project/path_planner/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/weiwei/Desktop/project/path_planner/install/interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/weiwei/Desktop/project/path_planner/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/weiwei/Desktop/project/path_planner/src/path_planner -DCMAKE_INSTALL_PREFIX=/home/weiwei/Desktop/project/path_planner/install/path_planner
+[0.019s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.037s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.161s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.185s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.292s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.324s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.325s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.418s] -- Found interface: 0.0.0 (/home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake)
+[0.589s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.611s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[0.731s] -- Found octomap_msgs: 2.0.0 (/opt/ros/foxy/share/octomap_msgs/cmake)
+[0.777s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[0.834s] -- Checking for module 'eigen3'
+[0.844s] --   Found eigen3, version 3.3.9
+[0.873s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.873s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.908s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[0.920s] -- Checking for module 'flann'
+[0.932s] --   Found flann, version 1.9.1
+[0.962s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.006s] -- The imported target "vtkParseOGLExt" references the file
+[1.006s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.006s] but this file does not exist.  Possible reasons include:
+[1.006s] * The file was deleted, renamed, or moved to another location.
+[1.006s] * An install or uninstall procedure did not complete successfully.
+[1.006s] * The installation package was faulty and contained
+[1.006s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.006s] but not all the files it references.
+[1.006s] 
+[1.006s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.006s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.006s] but this file does not exist.  Possible reasons include:
+[1.006s] * The file was deleted, renamed, or moved to another location.
+[1.007s] * An install or uninstall procedure did not complete successfully.
+[1.007s] * The installation package was faulty and contained
+[1.007s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.007s] but not all the files it references.
+[1.007s] 
+[1.007s] -- The imported target "vtk" references the file
+[1.007s]    "/usr/bin/vtk"
+[1.007s] but this file does not exist.  Possible reasons include:
+[1.007s] * The file was deleted, renamed, or moved to another location.
+[1.007s] * An install or uninstall procedure did not complete successfully.
+[1.007s] * The installation package was faulty and contained
+[1.007s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.007s] but not all the files it references.
+[1.007s] 
+[1.007s] -- The imported target "pvtk" references the file
+[1.007s]    "/usr/bin/pvtk"
+[1.007s] but this file does not exist.  Possible reasons include:
+[1.007s] * The file was deleted, renamed, or moved to another location.
+[1.007s] * An install or uninstall procedure did not complete successfully.
+[1.007s] * The installation package was faulty and contained
+[1.007s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.008s] but not all the files it references.
+[1.008s] 
+[1.028s] -- Checking for module 'libusb-1.0'
+[1.039s] --   Found libusb-1.0, version 1.0.23
+[1.066s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.104s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[1.104s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.145s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[1.145s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.145s] ** WARNING ** io features related to pcap will be disabled
+[1.145s] ** WARNING ** io features related to png will be disabled
+[1.154s] -- Found libusb-1.0: /usr/include  
+[1.154s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[1.158s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.162s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.181s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[1.181s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.186s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.194s] -- looking for PCL_COMMON
+[1.195s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.195s] -- looking for PCL_KDTREE
+[1.196s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.196s] -- looking for PCL_OCTREE
+[1.197s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.197s] -- looking for PCL_SEARCH
+[1.198s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.198s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.199s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.199s] -- looking for PCL_FILTERS
+[1.200s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.200s] -- looking for PCL_2D
+[1.200s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[1.200s] -- looking for PCL_GEOMETRY
+[1.200s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[1.201s] -- looking for PCL_IO
+[1.201s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.201s] -- looking for PCL_FEATURES
+[1.202s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.202s] -- looking for PCL_ML
+[1.203s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.203s] -- looking for PCL_SEGMENTATION
+[1.204s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.204s] -- looking for PCL_VISUALIZATION
+[1.205s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.205s] -- looking for PCL_SURFACE
+[1.206s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.206s] -- looking for PCL_REGISTRATION
+[1.207s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.207s] -- looking for PCL_KEYPOINTS
+[1.208s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.208s] -- looking for PCL_TRACKING
+[1.209s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.209s] -- looking for PCL_RECOGNITION
+[1.210s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.210s] -- looking for PCL_STEREO
+[1.211s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.211s] -- looking for PCL_APPS
+[1.212s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.213s] -- looking for PCL_IN_HAND_SCANNER
+[1.213s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[1.213s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.213s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[1.214s] -- looking for PCL_OUTOFCORE
+[1.214s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.215s] -- looking for PCL_PEOPLE
+[1.215s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.216s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[1.220s] -- Found OpenCV: /usr (found version "4.2.0") 
+[1.407s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  
+[1.533s] -- Found AMD headers in: /usr/include/suitesparse
+[1.535s] -- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+[1.535s] -- Found CAMD headers in: /usr/include/suitesparse
+[1.537s] -- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+[1.537s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[1.538s] -- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+[1.538s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[1.538s] -- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+[1.539s] -- Found COLAMD headers in: /usr/include/suitesparse
+[1.539s] -- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+[1.540s] -- Found SPQR headers in: /usr/include/suitesparse
+[1.540s] -- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+[1.540s] -- Found Config headers in: /usr/include/suitesparse
+[1.541s] -- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+[1.543s] -- Found Intel Thread Building Blocks (TBB) library (2020.1 / 11101) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[1.543s] -- Looking for shm_open in rt
+[1.590s] -- Looking for shm_open in rt - found
+[1.590s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[1.597s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[1.598s] -- Found SuiteSparse: /usr/include/suitesparse (found suitable version "5.7.1", minimum required is "5.7.1") found components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config 
+[1.600s] -- Found required Ceres dependency: Eigen version 3.3.9 in /usr/local/share/eigen3/cmake
+[1.602s] -- Found required Ceres dependency: glog
+[1.605s] -- Found required Ceres dependency: gflags
+[1.605s] -- Found Ceres version: 2.2.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+[1.606s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.716s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.716s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.717s] -- Configured cppcheck include dirs: 
+[1.717s] -- Configured cppcheck exclude dirs and/or files: 
+[1.717s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.717s] -- Configured cpplint exclude dirs and/or files: 
+[1.718s] -- Added test 'lint_cmake' to check CMake code style
+[1.718s] -- Added test 'uncrustify' to check C / C++ code style
+[1.718s] -- Configured uncrustify additional arguments: 
+[1.719s] -- Added test 'xmllint' to check XML markup files
+[1.721s] -- Configuring done
+[1.795s] -- Generating done
+[1.797s] -- Build files have been written to: /home/weiwei/Desktop/project/path_planner/build/path_planner
+[1.807s] Invoked command in '/home/weiwei/Desktop/project/path_planner/build/path_planner' returned '0': AMENT_PREFIX_PATH=/home/weiwei/Desktop/project/path_planner/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/weiwei/Desktop/project/path_planner/install/interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/weiwei/Desktop/project/path_planner/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/weiwei/Desktop/project/path_planner/src/path_planner -DCMAKE_INSTALL_PREFIX=/home/weiwei/Desktop/project/path_planner/install/path_planner
+[1.809s] Invoking command in '/home/weiwei/Desktop/project/path_planner/build/path_planner': AMENT_PREFIX_PATH=/home/weiwei/Desktop/project/path_planner/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/weiwei/Desktop/project/path_planner/install/interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/weiwei/Desktop/project/path_planner/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/weiwei/Desktop/project/path_planner/build/path_planner -- -j16 -l16
+[1.838s] [35m[1mScanning dependencies of target path_planner[0m
+[1.912s] [ 33%] [32mBuilding CXX object CMakeFiles/path_planner.dir/src/main.cpp.o[0m
+[1.912s] [ 66%] [32mBuilding CXX object CMakeFiles/path_planner.dir/src/planner.cpp.o[0m
+[6.734s] In file included from [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/main.cpp:1[m[K:
+[6.734s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:358:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[6.734s]   358 | }[01;35m[K;[m[K
+[6.734s]       |  [01;35m[K^[m[K
+[6.753s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:374:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[6.753s]   374 | }[01;35m[K;[m[K
+[6.753s]       |  [01;35m[K^[m[K
+[6.757s] In file included from [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:1[m[K:
+[6.757s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:358:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[6.757s]   358 | }[01;35m[K;[m[K
+[6.757s]       |  [01;35m[K^[m[K
+[6.777s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:374:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[6.777s]   374 | }[01;35m[K;[m[K
+[6.777s]       |  [01;35m[K^[m[K
+[6.870s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid PathPlanner::planPathCallback(interface::srv::PathPlan_Request_<std::allocator<void> >::SharedPtr, interface::srv::PathPlan_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.870s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:172:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[6.870s]   172 |     for (int i=0; [01;35m[Ki<ctrl_pts.size()[m[K; i++)
+[6.870s]       |                   [01;35m[K~^~~~~~~~~~~~~~~~[m[K
+[6.879s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid PathPlanner::mapCallback(sensor_msgs::msg::PointCloud_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.879s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:206:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktemp_flag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[6.879s]   206 |         bool [01;35m[Ktemp_flag[m[K = coorToIndex(Eigen::Vector3d(pcl_obs_msg->points[i].x,pcl_obs_msg->points[i].y,pcl_obs_msg->points[i].z), temp_grid_map_id);
+[6.879s]       |              [01;35m[K^~~~~~~~~[m[K
+[6.939s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid PathPlanner::Optimize(std::vector<Eigen::Matrix<double, 3, 1> >&, const std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&, const std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&)[m[K’:
+[6.939s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:677:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[6.939s]   677 |     for (int i=3; [01;35m[Ki<=ctrl_pts.size()-6[m[K; i++)
+[6.939s]       |                   [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[6.963s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:722:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[6.963s]   722 |     for (int i=3; [01;35m[Ki<=ctrl_pts.size()-5[m[K; i++)
+[6.963s]       |                   [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[6.977s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:748:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[6.977s]   748 |     for (int i=0; [01;35m[Ki<ctrl_pts.size()[m[K;i++)
+[6.977s]       |                   [01;35m[K~^~~~~~~~~~~~~~~~[m[K
+[6.977s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:750:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[6.977s]   750 |         for (int j=0; [01;35m[Kj<base_pts[i].size()[m[K; i++)
+[6.977s]       |                       [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[6.985s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:[m[K In member function ‘[01m[Kbool PathPlanner::check_collision_and_rebound(const std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&, std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&)[m[K’:
+[6.985s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:828:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[6.985s]   828 |             for (j = i + 1; [01;35m[Kj < ctrl_pts.size()[m[K; ++j)
+[6.985s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[6.985s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:838:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[6.985s]   838 |             if ([01;35m[Kj >= ctrl_pts.size()[m[K) // fail to get the obs free point
+[6.985s]       |                 [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[11.843s] In file included from [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:1[m[K:
+[11.843s] /home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp: In instantiation of ‘[01m[Kbool PathPlanner::collision_residual::operator()(const T*, T*) const [with T = double][m[K’:
+[11.843s] [01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:55:17:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, std::false_type, std::integer_sequence<int, Indices ...>) [with Functor = PathPlanner::collision_residual; T = double; int ...Indices = {0}; std::false_type = std::integral_constant<bool, false>][m[K’
+[11.843s] [01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:77:30:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*) [with ParameterDims = ceres::internal::ParameterDims<false, 3>; Functor = PathPlanner::collision_residual; T = double][m[K’
+[11.843s] [01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:106:45:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluate(const Functor&, const T* const*, T*) [with ParameterDims = ceres::internal::ParameterDims<false, 3>; Functor = PathPlanner::collision_residual; T = double][m[K’
+[11.843s] [01m[K/usr/local/include/ceres/autodiff_cost_function.h:208:55:[m[K   required from ‘[01m[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = PathPlanner::collision_residual; int kNumResiduals = 1; int ...Ns = {3}][m[K’
+[11.843s] [01m[K/usr/local/include/ceres/autodiff_cost_function.h:201:8:[m[K   required from here
+[11.843s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:296:25:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K-Wparentheses[m[K]
+[11.843s]   296 |             else if ([01;35m[K0.0<c[m[K<=sd_) {
+[11.843s]       |                      [01;35m[K~~~^~[m[K
+[11.858s] /home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp: In instantiation of ‘[01m[Kbool PathPlanner::collision_residual::operator()(const T*, T*) const [with T = ceres::Jet<double, 3>][m[K’:
+[11.858s] [01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:55:17:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, std::false_type, std::integer_sequence<int, Indices ...>) [with Functor = PathPlanner::collision_residual; T = ceres::Jet<double, 3>; int ...Indices = {0}; std::false_type = std::integral_constant<bool, false>][m[K’
+[11.858s] [01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:77:30:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*) [with ParameterDims = ceres::internal::ParameterDims<false, 3>; Functor = PathPlanner::collision_residual; T = ceres::Jet<double, 3>][m[K’
+[11.858s] [01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:106:45:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluate(const Functor&, const T* const*, T*) [with ParameterDims = ceres::internal::ParameterDims<false, 3>; Functor = PathPlanner::collision_residual; T = ceres::Jet<double, 3>][m[K’
+[11.858s] [01m[K/usr/local/include/ceres/internal/autodiff.h:349:39:[m[K   required from ‘[01m[Kbool ceres::internal::AutoDifferentiate(const Functor&, const T* const*, int, T*, T**) [with int kNumResiduals = 1; ParameterDims = ceres::internal::ParameterDims<false, 3>; Functor = PathPlanner::collision_residual; T = double][m[K’
+[11.858s] [01m[K/usr/local/include/ceres/autodiff_cost_function.h:211:69:[m[K   required from ‘[01m[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = PathPlanner::collision_residual; int kNumResiduals = 1; int ...Ns = {3}][m[K’
+[11.858s] [01m[K/usr/local/include/ceres/autodiff_cost_function.h:201:8:[m[K   required from here
+[11.858s] [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:296:25:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K-Wparentheses[m[K]
+[16.162s] [100%] [32m[1mLinking CXX executable path_planner[0m
+[17.285s] [100%] Built target path_planner
+[17.292s] Invoked command in '/home/weiwei/Desktop/project/path_planner/build/path_planner' returned '0': AMENT_PREFIX_PATH=/home/weiwei/Desktop/project/path_planner/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/weiwei/Desktop/project/path_planner/install/interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/weiwei/Desktop/project/path_planner/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/weiwei/Desktop/project/path_planner/build/path_planner -- -j16 -l16
+[17.312s] Invoking command in '/home/weiwei/Desktop/project/path_planner/build/path_planner': AMENT_PREFIX_PATH=/home/weiwei/Desktop/project/path_planner/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/weiwei/Desktop/project/path_planner/install/interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/weiwei/Desktop/project/path_planner/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/weiwei/Desktop/project/path_planner/build/path_planner
+[17.318s] -- Install configuration: ""
+[17.318s] -- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/lib/path_planner/path_planner
+[17.324s] -- Set runtime path of "/home/weiwei/Desktop/project/path_planner/install/path_planner/lib/path_planner/path_planner" to ""
+[17.324s] -- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/ament_index/resource_index/package_run_dependencies/path_planner
+[17.324s] -- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/ament_index/resource_index/parent_prefix_path/path_planner
+[17.324s] -- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/environment/ament_prefix_path.sh
+[17.325s] -- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/environment/ament_prefix_path.dsv
+[17.325s] -- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/environment/path.sh
+[17.325s] -- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/environment/path.dsv
+[17.325s] -- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/local_setup.bash
+[17.325s] -- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/local_setup.sh
+[17.325s] -- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/local_setup.zsh
+[17.325s] -- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/local_setup.dsv
+[17.325s] -- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/package.dsv
+[17.325s] -- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/ament_index/resource_index/packages/path_planner
+[17.325s] -- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/cmake/path_plannerConfig.cmake
+[17.325s] -- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/cmake/path_plannerConfig-version.cmake
+[17.325s] -- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/package.xml
+[17.327s] Invoked command in '/home/weiwei/Desktop/project/path_planner/build/path_planner' returned '0': AMENT_PREFIX_PATH=/home/weiwei/Desktop/project/path_planner/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/weiwei/Desktop/project/path_planner/install/interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/weiwei/Desktop/project/path_planner/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/weiwei/Desktop/project/path_planner/build/path_planner

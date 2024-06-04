@@ -1,0 +1,4 @@
+geometry_msgs/Point start_position
+geometry_msgs/Vector3 start_velocity
+geometry_msgs/Point end_position
+geometry_msgs/Vector3 end_velocity

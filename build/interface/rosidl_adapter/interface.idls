@@ -1,0 +1,6 @@
+/home/weiwei/Desktop/project/path_planner/build/interface/rosidl_adapter/interface:srv/PathPlan.idl
+/home/weiwei/Desktop/project/path_planner/build/interface/rosidl_adapter/interface:srv/CdcrState.idl
+/home/weiwei/Desktop/project/path_planner/build/interface/rosidl_adapter/interface:srv/FlagPoints.idl
+/home/weiwei/Desktop/project/path_planner/build/interface/rosidl_adapter/interface:srv/ConnectFlag.idl
+/home/weiwei/Desktop/project/path_planner/build/interface/rosidl_adapter/interface:msg/GetPathpoints.idl
+/home/weiwei/Desktop/project/path_planner/build/interface/rosidl_adapter/interface:msg/MoveMotor.idl

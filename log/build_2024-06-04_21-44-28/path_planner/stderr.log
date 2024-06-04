@@ -1,0 +1,63 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+In file included from [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/main.cpp:1[m[K:
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:358:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  358 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:374:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  374 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:1[m[K:
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:358:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  358 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:374:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  374 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid PathPlanner::planPathCallback(interface::srv::PathPlan_Request_<std::allocator<void> >::SharedPtr, interface::srv::PathPlan_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:172:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  172 |     for (int i=0; [01;35m[Ki<ctrl_pts.size()[m[K; i++)
+      |                   [01;35m[K~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid PathPlanner::mapCallback(sensor_msgs::msg::PointCloud_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:206:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktemp_flag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  206 |         bool [01;35m[Ktemp_flag[m[K = coorToIndex(Eigen::Vector3d(pcl_obs_msg->points[i].x,pcl_obs_msg->points[i].y,pcl_obs_msg->points[i].z), temp_grid_map_id);
+      |              [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid PathPlanner::Optimize(std::vector<Eigen::Matrix<double, 3, 1> >&, const std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&, const std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&)[m[K’:
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:677:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  677 |     for (int i=3; [01;35m[Ki<=ctrl_pts.size()-6[m[K; i++)
+      |                   [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:722:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  722 |     for (int i=3; [01;35m[Ki<=ctrl_pts.size()-5[m[K; i++)
+      |                   [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:748:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  748 |     for (int i=0; [01;35m[Ki<ctrl_pts.size()[m[K;i++)
+      |                   [01;35m[K~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:750:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  750 |         for (int j=0; [01;35m[Kj<base_pts[i].size()[m[K; i++)
+      |                       [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:[m[K In member function ‘[01m[Kbool PathPlanner::check_collision_and_rebound(const std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&, std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&)[m[K’:
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:828:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  828 |             for (j = i + 1; [01;35m[Kj < ctrl_pts.size()[m[K; ++j)
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:838:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  838 |             if ([01;35m[Kj >= ctrl_pts.size()[m[K) // fail to get the obs free point
+      |                 [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:1[m[K:
+/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp: In instantiation of ‘[01m[Kbool PathPlanner::collision_residual::operator()(const T*, T*) const [with T = double][m[K’:
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:55:17:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, std::false_type, std::integer_sequence<int, Indices ...>) [with Functor = PathPlanner::collision_residual; T = double; int ...Indices = {0}; std::false_type = std::integral_constant<bool, false>][m[K’
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:77:30:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*) [with ParameterDims = ceres::internal::ParameterDims<false, 3>; Functor = PathPlanner::collision_residual; T = double][m[K’
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:106:45:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluate(const Functor&, const T* const*, T*) [with ParameterDims = ceres::internal::ParameterDims<false, 3>; Functor = PathPlanner::collision_residual; T = double][m[K’
+[01m[K/usr/local/include/ceres/autodiff_cost_function.h:208:55:[m[K   required from ‘[01m[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = PathPlanner::collision_residual; int kNumResiduals = 1; int ...Ns = {3}][m[K’
+[01m[K/usr/local/include/ceres/autodiff_cost_function.h:201:8:[m[K   required from here
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:296:25:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K-Wparentheses[m[K]
+  296 |             else if ([01;35m[K0.0<c[m[K<=sd_) {
+      |                      [01;35m[K~~~^~[m[K
+/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp: In instantiation of ‘[01m[Kbool PathPlanner::collision_residual::operator()(const T*, T*) const [with T = ceres::Jet<double, 3>][m[K’:
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:55:17:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, std::false_type, std::integer_sequence<int, Indices ...>) [with Functor = PathPlanner::collision_residual; T = ceres::Jet<double, 3>; int ...Indices = {0}; std::false_type = std::integral_constant<bool, false>][m[K’
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:77:30:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*) [with ParameterDims = ceres::internal::ParameterDims<false, 3>; Functor = PathPlanner::collision_residual; T = ceres::Jet<double, 3>][m[K’
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:106:45:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluate(const Functor&, const T* const*, T*) [with ParameterDims = ceres::internal::ParameterDims<false, 3>; Functor = PathPlanner::collision_residual; T = ceres::Jet<double, 3>][m[K’
+[01m[K/usr/local/include/ceres/internal/autodiff.h:349:39:[m[K   required from ‘[01m[Kbool ceres::internal::AutoDifferentiate(const Functor&, const T* const*, int, T*, T**) [with int kNumResiduals = 1; ParameterDims = ceres::internal::ParameterDims<false, 3>; Functor = PathPlanner::collision_residual; T = double][m[K’
+[01m[K/usr/local/include/ceres/autodiff_cost_function.h:211:69:[m[K   required from ‘[01m[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = PathPlanner::collision_residual; int kNumResiduals = 1; int ...Ns = {3}][m[K’
+[01m[K/usr/local/include/ceres/autodiff_cost_function.h:201:8:[m[K   required from here
+[01m[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:296:25:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K-Wparentheses[m[K]

@@ -1,0 +1,8 @@
+float64[] alpha_now
+float64[] theta_now
+geometry_msgs/Pose base_pose_now
+---
+float64[] alpha_tar
+float64[] theta_tar
+geometry_msgs/Pose base_pose_tar
+bool success

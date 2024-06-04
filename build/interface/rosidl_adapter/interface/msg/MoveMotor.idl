@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interface/msg/MoveMotor.msg
+// generated code does not contain a copyright notice
+
+
+module interface {
+  module msg {
+    struct MoveMotor {
+      int64 motor_id;
+
+      int64 pos;
+
+      int64 vel;
+
+      int64 tor;
+
+      int64 kp;
+
+      int64 kd;
+    };
+  };
+};

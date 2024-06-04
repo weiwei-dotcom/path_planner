@@ -1,0 +1,11 @@
+{
+  "package_name": "interface",
+  "non_idl_tuples": [
+    "/home/weiwei/Desktop/project/path_planner/src/interface:srv/PathPlan.srv",
+    "/home/weiwei/Desktop/project/path_planner/src/interface:srv/CdcrState.srv",
+    "/home/weiwei/Desktop/project/path_planner/src/interface:srv/FlagPoints.srv",
+    "/home/weiwei/Desktop/project/path_planner/src/interface:srv/ConnectFlag.srv",
+    "/home/weiwei/Desktop/project/path_planner/src/interface:msg/GetPathpoints.msg",
+    "/home/weiwei/Desktop/project/path_planner/src/interface:msg/MoveMotor.msg"
+  ]
+}

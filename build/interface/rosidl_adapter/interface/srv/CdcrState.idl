@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interface/srv/CdcrState.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module interface {
+  module srv {
+    struct CdcrState_Request {
+      sequence<double> alpha_now;
+
+      sequence<double> theta_now;
+
+      geometry_msgs::msg::Pose base_pose_now;
+    };
+    struct CdcrState_Response {
+      sequence<double> alpha_tar;
+
+      sequence<double> theta_tar;
+
+      geometry_msgs::msg::Pose base_pose_tar;
+
+      boolean success;
+    };
+  };
+};
