@@ -1,4 +1,4 @@
-# Quick Start within 3 Minutes 
+# Quick Start
 Compiling tests passed on ubuntu 20.04** with ros2 installed.
 You can just execute the following commands one by one.
 ```
