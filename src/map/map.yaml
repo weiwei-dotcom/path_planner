@@ -1,0 +1,12 @@
+%YAML:1.0
+---
+map_flag_point1_x: 0.0
+map_flag_point1_y: 0.0
+map_flag_point1_z: 0.0
+map_flag_point2_x: 0.0
+map_flag_point2_y: 0.0
+map_flag_point2_z: 0.0
+map_flag_point3_x: 0.0
+map_flag_point3_y: 0.0
+map_flag_point3_z: 0.0
+build_step: 5

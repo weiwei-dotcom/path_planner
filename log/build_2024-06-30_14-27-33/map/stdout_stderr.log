@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target map_node[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/map_node.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/map_node.dir/src/map_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable map_node[0m
+[100%] Built target map_node
+-- Install configuration: ""
+-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/lib/map/map_node
+-- Set runtime path of "/home/weiwei/Desktop/project/path_planner/install/map/lib/map/map_node" to ""
+-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/ament_index/resource_index/package_run_dependencies/map
+-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/ament_index/resource_index/parent_prefix_path/map
+-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/environment/ament_prefix_path.sh
+-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/environment/ament_prefix_path.dsv
+-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/environment/path.sh
+-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/environment/path.dsv
+-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/local_setup.bash
+-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/local_setup.sh
+-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/local_setup.zsh
+-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/local_setup.dsv
+-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/map/share/map/package.dsv
+-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/ament_index/resource_index/packages/map
+-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/cmake/mapConfig.cmake
+-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/cmake/mapConfig-version.cmake
+-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/package.xml

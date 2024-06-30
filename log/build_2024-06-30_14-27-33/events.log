@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.000203] (-) JobUnselected: {'identifier': 'interface'}
+[0.000340] (-) JobUnselected: {'identifier': 'path_planner'}
+[0.000354] (map) JobQueued: {'identifier': 'map', 'dependencies': OrderedDict([('interface', '/home/weiwei/Desktop/project/path_planner/install/interface')])}
+[0.000369] (map) JobStarted: {'identifier': 'map'}
+[0.009115] (map) JobProgress: {'identifier': 'map', 'progress': 'cmake'}
+[0.009695] (map) JobProgress: {'identifier': 'map', 'progress': 'build'}
+[0.010161] (map) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/weiwei/Desktop/project/path_planner/build/map', '--', '-j16', '-l16'], 'cwd': '/home/weiwei/Desktop/project/path_planner/build/map', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'weiwei'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '2827'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/weiwei/Desktop/project/path_planner/install/interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/weiwei'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2382'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e7a20147df8bcd3e3d86d7966681334e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/weiwei/Desktop/project/path_planner/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'weiwei'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:106748'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'weiwei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/weiwei/Desktop/thirdParty/anaconda3/condabin:/home/weiwei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/weiwei/Desktop/application/jdk1.8.0_381/bin:/home/weiwei/Desktop/application/jdk1.8.0_381/jre/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hello-world:@/tmp/.ICE-unix/2916,unix/hello-world:/tmp/.ICE-unix/2916'), ('INVOCATION_ID', 'c91a770db6554f12bc16f71f16d3c20a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20a6be39_b671_4751_8ede_b8e9f07352c3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-13a2bd1e6a.sock'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/weiwei/Desktop/project/path_planner/install/path_planner:/home/weiwei/Desktop/project/path_planner/install/interface:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/weiwei/Desktop/thirdParty/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('CLASSPATH', '.:/home/weiwei/Desktop/application/jdk1.8.0_381/lib:/home/weiwei/Desktop/application/jdk1.8.0_381/jre/lib'), ('QT_IM_MODULE', 'fcitx'), ('JAVA_HOME', '/home/weiwei/Desktop/application/jdk1.8.0_381'), ('PWD', '/home/weiwei/Desktop/project/path_planner/build/map'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/weiwei/Desktop/thirdParty/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e7a20147df8bcd3e3d86d7966681334e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/weiwei/Desktop/project/path_planner/install/interface:/home/weiwei/Desktop/project/path_planner/install/path_planner:/opt/ros/foxy')]), 'shell': False}
+[0.049088] (map) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target map_node\x1b[0m\n'}
+[0.094626] (map) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/map_node.dir/src/main.cpp.o\x1b[0m\n'}
+[0.094835] (map) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/map_node.dir/src/map_node.cpp.o\x1b[0m\n'}
+[0.099859] (-) TimerEvent: {}
+[0.200170] (-) TimerEvent: {}
+[0.300422] (-) TimerEvent: {}
+[0.400691] (-) TimerEvent: {}
+[0.500959] (-) TimerEvent: {}
+[0.601233] (-) TimerEvent: {}
+[0.701502] (-) TimerEvent: {}
+[0.801781] (-) TimerEvent: {}
+[0.902047] (-) TimerEvent: {}
+[1.002331] (-) TimerEvent: {}
+[1.102671] (-) TimerEvent: {}
+[1.202929] (-) TimerEvent: {}
+[1.303183] (-) TimerEvent: {}
+[1.403496] (-) TimerEvent: {}
+[1.503797] (-) TimerEvent: {}
+[1.604105] (-) TimerEvent: {}
+[1.704384] (-) TimerEvent: {}
+[1.804672] (-) TimerEvent: {}
+[1.904939] (-) TimerEvent: {}
+[2.005231] (-) TimerEvent: {}
+[2.105555] (-) TimerEvent: {}
+[2.205896] (-) TimerEvent: {}
+[2.306170] (-) TimerEvent: {}
+[2.406459] (-) TimerEvent: {}
+[2.506721] (-) TimerEvent: {}
+[2.607013] (-) TimerEvent: {}
+[2.707302] (-) TimerEvent: {}
+[2.807570] (-) TimerEvent: {}
+[2.907830] (-) TimerEvent: {}
+[3.008183] (-) TimerEvent: {}
+[3.108527] (-) TimerEvent: {}
+[3.208879] (-) TimerEvent: {}
+[3.309181] (-) TimerEvent: {}
+[3.409445] (-) TimerEvent: {}
+[3.509713] (-) TimerEvent: {}
+[3.609985] (-) TimerEvent: {}
+[3.710250] (-) TimerEvent: {}
+[3.810553] (-) TimerEvent: {}
+[3.910866] (-) TimerEvent: {}
+[4.011128] (-) TimerEvent: {}
+[4.111372] (-) TimerEvent: {}
+[4.211645] (-) TimerEvent: {}
+[4.311911] (-) TimerEvent: {}
+[4.412160] (-) TimerEvent: {}
+[4.512448] (-) TimerEvent: {}
+[4.612807] (-) TimerEvent: {}
+[4.713059] (-) TimerEvent: {}
+[4.813332] (-) TimerEvent: {}
+[4.913610] (-) TimerEvent: {}
+[5.013894] (-) TimerEvent: {}
+[5.114214] (-) TimerEvent: {}
+[5.214531] (-) TimerEvent: {}
+[5.314835] (-) TimerEvent: {}
+[5.415149] (-) TimerEvent: {}
+[5.515414] (-) TimerEvent: {}
+[5.615759] (-) TimerEvent: {}
+[5.716078] (-) TimerEvent: {}
+[5.816418] (-) TimerEvent: {}
+[5.916667] (-) TimerEvent: {}
+[6.016940] (-) TimerEvent: {}
+[6.117208] (-) TimerEvent: {}
+[6.217542] (-) TimerEvent: {}
+[6.317807] (-) TimerEvent: {}
+[6.418134] (-) TimerEvent: {}
+[6.518456] (-) TimerEvent: {}
+[6.618776] (-) TimerEvent: {}
+[6.719116] (-) TimerEvent: {}
+[6.819451] (-) TimerEvent: {}
+[6.919772] (-) TimerEvent: {}
+[7.020115] (-) TimerEvent: {}
+[7.120433] (-) TimerEvent: {}
+[7.220776] (-) TimerEvent: {}
+[7.321019] (-) TimerEvent: {}
+[7.421335] (-) TimerEvent: {}
+[7.521580] (-) TimerEvent: {}
+[7.621886] (-) TimerEvent: {}
+[7.722197] (-) TimerEvent: {}
+[7.822526] (-) TimerEvent: {}
+[7.922841] (-) TimerEvent: {}
+[8.023157] (-) TimerEvent: {}
+[8.123427] (-) TimerEvent: {}
+[8.223780] (-) TimerEvent: {}
+[8.324068] (-) TimerEvent: {}
+[8.424416] (-) TimerEvent: {}
+[8.524807] (-) TimerEvent: {}
+[8.625061] (-) TimerEvent: {}
+[8.725311] (-) TimerEvent: {}
+[8.825602] (-) TimerEvent: {}
+[8.925932] (-) TimerEvent: {}
+[9.019490] (map) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable map_node\x1b[0m\n'}
+[9.026018] (-) TimerEvent: {}
+[9.126306] (-) TimerEvent: {}
+[9.226639] (-) TimerEvent: {}
+[9.326950] (-) TimerEvent: {}
+[9.427276] (-) TimerEvent: {}
+[9.527579] (-) TimerEvent: {}
+[9.555825] (map) StdoutLine: {'line': b'[100%] Built target map_node\n'}
+[9.563513] (map) CommandEnded: {'returncode': 0}
+[9.582548] (map) JobProgress: {'identifier': 'map', 'progress': 'install'}
+[9.590025] (map) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/weiwei/Desktop/project/path_planner/build/map'], 'cwd': '/home/weiwei/Desktop/project/path_planner/build/map', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'weiwei'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '2827'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/weiwei/Desktop/project/path_planner/install/interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/weiwei'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2382'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e7a20147df8bcd3e3d86d7966681334e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/weiwei/Desktop/project/path_planner/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'weiwei'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:106748'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'weiwei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/weiwei/Desktop/thirdParty/anaconda3/condabin:/home/weiwei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/weiwei/Desktop/application/jdk1.8.0_381/bin:/home/weiwei/Desktop/application/jdk1.8.0_381/jre/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hello-world:@/tmp/.ICE-unix/2916,unix/hello-world:/tmp/.ICE-unix/2916'), ('INVOCATION_ID', 'c91a770db6554f12bc16f71f16d3c20a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20a6be39_b671_4751_8ede_b8e9f07352c3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-13a2bd1e6a.sock'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/weiwei/Desktop/project/path_planner/install/path_planner:/home/weiwei/Desktop/project/path_planner/install/interface:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/weiwei/Desktop/thirdParty/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('CLASSPATH', '.:/home/weiwei/Desktop/application/jdk1.8.0_381/lib:/home/weiwei/Desktop/application/jdk1.8.0_381/jre/lib'), ('QT_IM_MODULE', 'fcitx'), ('JAVA_HOME', '/home/weiwei/Desktop/application/jdk1.8.0_381'), ('PWD', '/home/weiwei/Desktop/project/path_planner/build/map'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/weiwei/Desktop/thirdParty/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e7a20147df8bcd3e3d86d7966681334e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/weiwei/Desktop/project/path_planner/install/interface:/home/weiwei/Desktop/project/path_planner/install/path_planner:/opt/ros/foxy')]), 'shell': False}
+[9.595091] (map) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.595226] (map) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/lib/map/map_node\n'}
+[9.595862] (map) StdoutLine: {'line': b'-- Set runtime path of "/home/weiwei/Desktop/project/path_planner/install/map/lib/map/map_node" to ""\n'}
+[9.595969] (map) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/ament_index/resource_index/package_run_dependencies/map\n'}
+[9.596053] (map) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/ament_index/resource_index/parent_prefix_path/map\n'}
+[9.596131] (map) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/environment/ament_prefix_path.sh\n'}
+[9.596312] (map) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/environment/ament_prefix_path.dsv\n'}
+[9.596401] (map) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/environment/path.sh\n'}
+[9.596537] (map) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/environment/path.dsv\n'}
+[9.596686] (map) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/local_setup.bash\n'}
+[9.596919] (map) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/local_setup.sh\n'}
+[9.596997] (map) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/local_setup.zsh\n'}
+[9.597087] (map) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/local_setup.dsv\n'}
+[9.597181] (map) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/map/share/map/package.dsv\n'}
+[9.597273] (map) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/ament_index/resource_index/packages/map\n'}
+[9.597334] (map) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/cmake/mapConfig.cmake\n'}
+[9.597390] (map) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/cmake/mapConfig-version.cmake\n'}
+[9.597448] (map) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/map/share/map/package.xml\n'}
+[9.598293] (map) CommandEnded: {'returncode': 0}
+[9.628188] (-) TimerEvent: {}
+[9.630009] (map) JobEnded: {'identifier': 'map', 'rc': 0}
+[9.630529] (-) EventReactorShutdown: {}

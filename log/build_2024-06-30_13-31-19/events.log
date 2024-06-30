@@ -1,0 +1,495 @@
+[0.000000] (-) TimerEvent: {}
+[0.000231] (interface) JobQueued: {'identifier': 'interface', 'dependencies': OrderedDict()}
+[0.000265] (path_planner) JobQueued: {'identifier': 'path_planner', 'dependencies': OrderedDict([('interface', '/home/weiwei/Desktop/project/path_planner/install/interface')])}
+[0.000577] (interface) JobStarted: {'identifier': 'interface'}
+[0.007356] (interface) JobProgress: {'identifier': 'interface', 'progress': 'cmake'}
+[0.008053] (interface) JobProgress: {'identifier': 'interface', 'progress': 'build'}
+[0.008522] (interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/weiwei/Desktop/project/path_planner/build/interface', '--', '-j16', '-l16'], 'cwd': '/home/weiwei/Desktop/project/path_planner/build/interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'weiwei'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '2827'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/weiwei'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2382'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e7a20147df8bcd3e3d86d7966681334e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'weiwei'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:106748'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'weiwei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/weiwei/Desktop/thirdParty/anaconda3/condabin:/home/weiwei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/weiwei/Desktop/application/jdk1.8.0_381/bin:/home/weiwei/Desktop/application/jdk1.8.0_381/jre/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hello-world:@/tmp/.ICE-unix/2916,unix/hello-world:/tmp/.ICE-unix/2916'), ('INVOCATION_ID', 'c91a770db6554f12bc16f71f16d3c20a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20a6be39_b671_4751_8ede_b8e9f07352c3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-13a2bd1e6a.sock'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/weiwei/Desktop/thirdParty/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('CLASSPATH', '.:/home/weiwei/Desktop/application/jdk1.8.0_381/lib:/home/weiwei/Desktop/application/jdk1.8.0_381/jre/lib'), ('QT_IM_MODULE', 'fcitx'), ('JAVA_HOME', '/home/weiwei/Desktop/application/jdk1.8.0_381'), ('PWD', '/home/weiwei/Desktop/project/path_planner/build/interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/weiwei/Desktop/thirdParty/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e7a20147df8bcd3e3d86d7966681334e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.069261] (interface) StdoutLine: {'line': b'[  1%] Built target interface__cpp\n'}
+[0.070934] (interface) StdoutLine: {'line': b'[ 12%] Built target interface__rosidl_generator_c\n'}
+[0.087832] (interface) StdoutLine: {'line': b'[ 45%] Built target interface__rosidl_typesupport_cpp\n'}
+[0.088006] (interface) StdoutLine: {'line': b'[ 45%] Built target interface__rosidl_typesupport_introspection_cpp\n'}
+[0.088053] (interface) StdoutLine: {'line': b'[ 46%] Built target interface__rosidl_typesupport_c\n'}
+[0.088170] (interface) StdoutLine: {'line': b'[ 57%] Built target interface__rosidl_typesupport_introspection_c\n'}
+[0.092287] (interface) StdoutLine: {'line': b'[ 69%] Built target interface__rosidl_typesupport_fastrtps_cpp\n'}
+[0.100019] (-) TimerEvent: {}
+[0.114158] (interface) StdoutLine: {'line': b'[ 80%] Built target interface__rosidl_typesupport_fastrtps_c\n'}
+[0.130868] (interface) StdoutLine: {'line': b'[ 80%] Built target interface\n'}
+[0.145938] (interface) StdoutLine: {'line': b'[ 81%] Built target interface__py\n'}
+[0.167689] (interface) StdoutLine: {'line': b'[ 91%] Built target interface__python\n'}
+[0.187786] (interface) StdoutLine: {'line': b'[ 98%] Built target interface__rosidl_typesupport_c__pyext\n'}
+[0.187985] (interface) StdoutLine: {'line': b'[ 98%] Built target interface__rosidl_typesupport_introspection_c__pyext\n'}
+[0.188032] (interface) StdoutLine: {'line': b'[100%] Built target interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.195043] (interface) CommandEnded: {'returncode': 0}
+[0.200114] (-) TimerEvent: {}
+[0.271728] (interface) JobProgress: {'identifier': 'interface', 'progress': 'install'}
+[0.278876] (interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/weiwei/Desktop/project/path_planner/build/interface'], 'cwd': '/home/weiwei/Desktop/project/path_planner/build/interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'weiwei'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '2827'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/weiwei'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2382'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e7a20147df8bcd3e3d86d7966681334e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'weiwei'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:106748'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'weiwei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/weiwei/Desktop/thirdParty/anaconda3/condabin:/home/weiwei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/weiwei/Desktop/application/jdk1.8.0_381/bin:/home/weiwei/Desktop/application/jdk1.8.0_381/jre/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hello-world:@/tmp/.ICE-unix/2916,unix/hello-world:/tmp/.ICE-unix/2916'), ('INVOCATION_ID', 'c91a770db6554f12bc16f71f16d3c20a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20a6be39_b671_4751_8ede_b8e9f07352c3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-13a2bd1e6a.sock'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/weiwei/Desktop/thirdParty/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('CLASSPATH', '.:/home/weiwei/Desktop/application/jdk1.8.0_381/lib:/home/weiwei/Desktop/application/jdk1.8.0_381/jre/lib'), ('QT_IM_MODULE', 'fcitx'), ('JAVA_HOME', '/home/weiwei/Desktop/application/jdk1.8.0_381'), ('PWD', '/home/weiwei/Desktop/project/path_planner/build/interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/weiwei/Desktop/thirdParty/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e7a20147df8bcd3e3d86d7966681334e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.285924] (interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.286460] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/ament_index/resource_index/rosidl_interfaces/interface\n'}
+[0.286530] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface\n'}
+[0.286586] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv\n'}
+[0.286627] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/cdcr_state.h\n'}
+[0.286665] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/connect_flag.h\n'}
+[0.286703] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail\n'}
+[0.286742] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/cdcr_state__functions.h\n'}
+[0.286807] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/cdcr_state__type_support.h\n'}
+[0.286845] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/flag_points__type_support.h\n'}
+[0.286881] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/flag_points__struct.h\n'}
+[0.286917] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/path_plan__functions.h\n'}
+[0.286953] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/connect_flag__functions.h\n'}
+[0.286989] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/connect_flag__functions.c\n'}
+[0.287025] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/flag_points__functions.h\n'}
+[0.287066] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/connect_flag__type_support.h\n'}
+[0.287108] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/path_plan__type_support.h\n'}
+[0.287147] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/cdcr_state__struct.h\n'}
+[0.287185] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/connect_flag__struct.h\n'}
+[0.287222] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/path_plan__functions.c\n'}
+[0.287260] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/cdcr_state__functions.c\n'}
+[0.287345] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/path_plan__struct.h\n'}
+[0.287385] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/flag_points__functions.c\n'}
+[0.287421] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/path_plan.h\n'}
+[0.287459] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/flag_points.h\n'}
+[0.287496] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg\n'}
+[0.287534] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/get_pathpoints.h\n'}
+[0.287571] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail\n'}
+[0.287607] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/get_pathpoints__struct.h\n'}
+[0.287657] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/move_motor__functions.h\n'}
+[0.287694] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/move_motor__struct.h\n'}
+[0.287730] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/move_motor__functions.c\n'}
+[0.287766] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/get_pathpoints__functions.h\n'}
+[0.287804] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/move_motor__type_support.h\n'}
+[0.287842] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/get_pathpoints__type_support.h\n'}
+[0.287881] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/get_pathpoints__functions.c\n'}
+[0.287919] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.287983] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/move_motor.h\n'}
+[0.288038] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/environment/library_path.sh\n'}
+[0.288076] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/environment/library_path.dsv\n'}
+[0.288114] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/libinterface__rosidl_generator_c.so\n'}
+[0.288152] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface\n'}
+[0.288190] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv\n'}
+[0.288229] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail\n'}
+[0.288267] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/connect_flag__rosidl_typesupport_fastrtps_c.h\n'}
+[0.288306] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/cdcr_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.288343] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/path_plan__rosidl_typesupport_fastrtps_c.h\n'}
+[0.288381] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/flag_points__rosidl_typesupport_fastrtps_c.h\n'}
+[0.288418] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg\n'}
+[0.288456] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail\n'}
+[0.288493] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/move_motor__rosidl_typesupport_fastrtps_c.h\n'}
+[0.288531] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/get_pathpoints__rosidl_typesupport_fastrtps_c.h\n'}
+[0.288587] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.288624] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so\n'}
+[0.288660] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface\n'}
+[0.288699] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv\n'}
+[0.288737] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail\n'}
+[0.288775] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/cdcr_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.288832] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/connect_flag__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.288871] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/path_plan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.288909] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/dds_fastrtps\n'}
+[0.288991] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/flag_points__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.289029] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg\n'}
+[0.289065] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail\n'}
+[0.289100] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/move_motor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.289136] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/dds_fastrtps\n'}
+[0.289172] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/get_pathpoints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.289207] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.289243] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.289279] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface\n'}
+[0.289316] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv\n'}
+[0.289354] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail\n'}
+[0.289392] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/path_plan__rosidl_typesupport_introspection_c.h\n'}
+[0.289430] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/flag_points__rosidl_typesupport_introspection_c.h\n'}
+[0.289467] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/connect_flag__type_support.c\n'}
+[0.289505] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/cdcr_state__rosidl_typesupport_introspection_c.h\n'}
+[0.289543] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/path_plan__type_support.c\n'}
+[0.289582] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/connect_flag__rosidl_typesupport_introspection_c.h\n'}
+[0.289619] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/cdcr_state__type_support.c\n'}
+[0.289656] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/flag_points__type_support.c\n'}
+[0.289693] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg\n'}
+[0.289751] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail\n'}
+[0.289791] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/move_motor__type_support.c\n'}
+[0.289829] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/move_motor__rosidl_typesupport_introspection_c.h\n'}
+[0.289879] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/get_pathpoints__rosidl_typesupport_introspection_c.h\n'}
+[0.289980] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/get_pathpoints__type_support.c\n'}
+[0.290059] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.290102] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so\n'}
+[0.290141] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/libinterface__rosidl_typesupport_c.so\n'}
+[0.290178] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface\n'}
+[0.290216] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv\n'}
+[0.290253] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/cdcr_state.hpp\n'}
+[0.290291] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail\n'}
+[0.290327] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/path_plan__builder.hpp\n'}
+[0.290414] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/path_plan__struct.hpp\n'}
+[0.290450] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/flag_points__traits.hpp\n'}
+[0.290485] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/connect_flag__struct.hpp\n'}
+[0.290520] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/path_plan__type_support.hpp\n'}
+[0.290555] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/connect_flag__traits.hpp\n'}
+[0.290589] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/flag_points__type_support.hpp\n'}
+[0.290624] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/path_plan__traits.hpp\n'}
+[0.290659] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/cdcr_state__type_support.hpp\n'}
+[0.290695] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/cdcr_state__struct.hpp\n'}
+[0.290729] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/flag_points__struct.hpp\n'}
+[0.290764] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/connect_flag__builder.hpp\n'}
+[0.290799] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/cdcr_state__builder.hpp\n'}
+[0.290833] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/cdcr_state__traits.hpp\n'}
+[0.290878] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/flag_points__builder.hpp\n'}
+[0.290914] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/connect_flag__type_support.hpp\n'}
+[0.290949] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/flag_points.hpp\n'}
+[0.290983] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/path_plan.hpp\n'}
+[0.291016] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/connect_flag.hpp\n'}
+[0.291052] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg\n'}
+[0.291087] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail\n'}
+[0.291121] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/get_pathpoints__type_support.hpp\n'}
+[0.291155] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/move_motor__struct.hpp\n'}
+[0.291190] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/move_motor__type_support.hpp\n'}
+[0.291227] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/get_pathpoints__traits.hpp\n'}
+[0.291263] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/move_motor__builder.hpp\n'}
+[0.291306] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/get_pathpoints__builder.hpp\n'}
+[0.291343] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/move_motor__traits.hpp\n'}
+[0.291383] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/get_pathpoints__struct.hpp\n'}
+[0.291421] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/get_pathpoints.hpp\n'}
+[0.291457] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.291512] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/move_motor.hpp\n'}
+[0.291549] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface\n'}
+[0.291586] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv\n'}
+[0.291620] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail\n'}
+[0.291654] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/path_plan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.291699] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/cdcr_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.291735] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/flag_points__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.291775] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/connect_flag__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.291811] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/connect_flag__type_support.cpp\n'}
+[0.291848] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/path_plan__type_support.cpp\n'}
+[0.291885] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/cdcr_state__type_support.cpp\n'}
+[0.291920] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/srv/detail/flag_points__type_support.cpp\n'}
+[0.291957] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg\n'}
+[0.291993] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail\n'}
+[0.292029] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/move_motor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.292064] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/get_pathpoints__type_support.cpp\n'}
+[0.292099] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/get_pathpoints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.292134] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/include/interface/msg/detail/move_motor__type_support.cpp\n'}
+[0.292171] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so\n'}
+[0.292206] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/libinterface__rosidl_typesupport_cpp.so\n'}
+[0.292241] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/environment/pythonpath.sh\n'}
+[0.292277] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/environment/pythonpath.dsv\n'}
+[0.292312] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/__init__.py\n'}
+[0.300184] (-) TimerEvent: {}
+[0.311749] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/srv\n'}
+[0.311978] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/srv/_path_plan_s.c\n'}
+[0.312029] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/srv/_cdcr_state.py\n'}
+[0.312068] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/srv/_connect_flag_s.c\n'}
+[0.312105] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/srv/_flag_points_s.c\n'}
+[0.312141] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/srv/_flag_points.py\n'}
+[0.312176] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/srv/_connect_flag.py\n'}
+[0.312216] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/srv/_path_plan.py\n'}
+[0.312251] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/srv/_cdcr_state_s.c\n'}
+[0.312285] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/srv/__init__.py\n'}
+[0.312320] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/msg\n'}
+[0.312377] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/msg/_get_pathpoints.py\n'}
+[0.312414] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/msg/_get_pathpoints_s.c\n'}
+[0.312448] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/msg/_move_motor.py\n'}
+[0.312483] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/msg/_move_motor_s.c\n'}
+[0.312517] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/msg/__init__.py\n'}
+[0.312552] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.313038] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.313662] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages/interface/interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.314313] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/lib/libinterface__python.so\n'}
+[0.314559] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/srv/PathPlan.idl\n'}
+[0.314634] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/srv/CdcrState.idl\n'}
+[0.314678] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/srv/FlagPoints.idl\n'}
+[0.314718] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/srv/ConnectFlag.idl\n'}
+[0.314800] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/msg/GetPathpoints.idl\n'}
+[0.314841] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/msg/MoveMotor.idl\n'}
+[0.314879] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/srv/PathPlan.srv\n'}
+[0.314917] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/srv/PathPlan_Request.msg\n'}
+[0.314955] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/srv/PathPlan_Response.msg\n'}
+[0.314994] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/srv/CdcrState.srv\n'}
+[0.315049] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/srv/CdcrState_Request.msg\n'}
+[0.315088] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/srv/CdcrState_Response.msg\n'}
+[0.315126] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/srv/FlagPoints.srv\n'}
+[0.315164] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/srv/FlagPoints_Request.msg\n'}
+[0.315202] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/srv/FlagPoints_Response.msg\n'}
+[0.315240] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/srv/ConnectFlag.srv\n'}
+[0.315276] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/srv/ConnectFlag_Request.msg\n'}
+[0.315314] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/srv/ConnectFlag_Response.msg\n'}
+[0.315352] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/msg/GetPathpoints.msg\n'}
+[0.315421] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/msg/MoveMotor.msg\n'}
+[0.315459] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/ament_index/resource_index/package_run_dependencies/interface\n'}
+[0.315497] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/ament_index/resource_index/parent_prefix_path/interface\n'}
+[0.315535] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/environment/ament_prefix_path.sh\n'}
+[0.315608] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/environment/ament_prefix_path.dsv\n'}
+[0.315645] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/environment/path.sh\n'}
+[0.315697] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/environment/path.dsv\n'}
+[0.315734] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/local_setup.bash\n'}
+[0.315773] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/local_setup.sh\n'}
+[0.315811] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/local_setup.zsh\n'}
+[0.315848] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/local_setup.dsv\n'}
+[0.315887] (interface) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/package.dsv\n'}
+[0.315947] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/ament_index/resource_index/packages/interface\n'}
+[0.315984] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/interface__rosidl_generator_cExport.cmake\n'}
+[0.316020] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.316074] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.316135] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.316331] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport.cmake\n'}
+[0.316388] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.316643] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/interface__rosidl_generator_cppExport.cmake\n'}
+[0.316887] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.316946] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.317201] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport.cmake\n'}
+[0.317252] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.317311] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/rosidl_cmake-extras.cmake\n'}
+[0.317389] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.317429] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.317467] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.317505] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.317543] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.317603] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.317667] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/interfaceConfig.cmake\n'}
+[0.317706] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/cmake/interfaceConfig-version.cmake\n'}
+[0.317742] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/interface/share/interface/package.xml\n'}
+[0.319281] (interface) CommandEnded: {'returncode': 0}
+[0.400349] (-) TimerEvent: {}
+[0.413830] (interface) JobEnded: {'identifier': 'interface', 'rc': 0}
+[0.414960] (path_planner) JobStarted: {'identifier': 'path_planner'}
+[0.421938] (path_planner) JobProgress: {'identifier': 'path_planner', 'progress': 'cmake'}
+[0.422950] (path_planner) JobProgress: {'identifier': 'path_planner', 'progress': 'build'}
+[0.423275] (path_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/weiwei/Desktop/project/path_planner/build/path_planner', '--', '-j16', '-l16'], 'cwd': '/home/weiwei/Desktop/project/path_planner/build/path_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'weiwei'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '2827'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/weiwei/Desktop/project/path_planner/install/interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/weiwei'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2382'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e7a20147df8bcd3e3d86d7966681334e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'weiwei'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:106748'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'weiwei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/weiwei/Desktop/thirdParty/anaconda3/condabin:/home/weiwei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/weiwei/Desktop/application/jdk1.8.0_381/bin:/home/weiwei/Desktop/application/jdk1.8.0_381/jre/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hello-world:@/tmp/.ICE-unix/2916,unix/hello-world:/tmp/.ICE-unix/2916'), ('INVOCATION_ID', 'c91a770db6554f12bc16f71f16d3c20a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20a6be39_b671_4751_8ede_b8e9f07352c3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-13a2bd1e6a.sock'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/weiwei/Desktop/project/path_planner/install/interface:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/weiwei/Desktop/thirdParty/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('CLASSPATH', '.:/home/weiwei/Desktop/application/jdk1.8.0_381/lib:/home/weiwei/Desktop/application/jdk1.8.0_381/jre/lib'), ('QT_IM_MODULE', 'fcitx'), ('JAVA_HOME', '/home/weiwei/Desktop/application/jdk1.8.0_381'), ('PWD', '/home/weiwei/Desktop/project/path_planner/build/path_planner'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/weiwei/Desktop/thirdParty/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e7a20147df8bcd3e3d86d7966681334e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/weiwei/Desktop/project/path_planner/install/interface:/opt/ros/foxy')]), 'shell': False}
+[0.466547] (path_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target path_planner\x1b[0m\n'}
+[0.500447] (-) TimerEvent: {}
+[0.516211] (path_planner) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/path_planner.dir/src/planner.cpp.o\x1b[0m\n'}
+[0.516472] (path_planner) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/path_planner.dir/src/main.cpp.o\x1b[0m\n'}
+[0.600549] (-) TimerEvent: {}
+[0.700836] (-) TimerEvent: {}
+[0.801096] (-) TimerEvent: {}
+[0.901438] (-) TimerEvent: {}
+[1.001743] (-) TimerEvent: {}
+[1.102102] (-) TimerEvent: {}
+[1.202446] (-) TimerEvent: {}
+[1.302759] (-) TimerEvent: {}
+[1.403079] (-) TimerEvent: {}
+[1.503397] (-) TimerEvent: {}
+[1.603821] (-) TimerEvent: {}
+[1.704102] (-) TimerEvent: {}
+[1.804444] (-) TimerEvent: {}
+[1.904723] (-) TimerEvent: {}
+[2.005026] (-) TimerEvent: {}
+[2.105336] (-) TimerEvent: {}
+[2.205611] (-) TimerEvent: {}
+[2.305937] (-) TimerEvent: {}
+[2.406264] (-) TimerEvent: {}
+[2.506620] (-) TimerEvent: {}
+[2.606889] (-) TimerEvent: {}
+[2.707163] (-) TimerEvent: {}
+[2.807432] (-) TimerEvent: {}
+[2.907721] (-) TimerEvent: {}
+[3.008056] (-) TimerEvent: {}
+[3.108379] (-) TimerEvent: {}
+[3.208701] (-) TimerEvent: {}
+[3.309095] (-) TimerEvent: {}
+[3.409396] (-) TimerEvent: {}
+[3.509693] (-) TimerEvent: {}
+[3.610034] (-) TimerEvent: {}
+[3.710389] (-) TimerEvent: {}
+[3.810718] (-) TimerEvent: {}
+[3.910995] (-) TimerEvent: {}
+[4.011313] (-) TimerEvent: {}
+[4.111565] (-) TimerEvent: {}
+[4.211829] (-) TimerEvent: {}
+[4.312153] (-) TimerEvent: {}
+[4.412411] (-) TimerEvent: {}
+[4.512656] (-) TimerEvent: {}
+[4.612896] (-) TimerEvent: {}
+[4.713172] (-) TimerEvent: {}
+[4.813460] (-) TimerEvent: {}
+[4.913718] (-) TimerEvent: {}
+[5.013988] (-) TimerEvent: {}
+[5.114258] (-) TimerEvent: {}
+[5.214512] (-) TimerEvent: {}
+[5.314781] (-) TimerEvent: {}
+[5.415055] (-) TimerEvent: {}
+[5.515406] (-) TimerEvent: {}
+[5.562829] (path_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:1\x1b[m\x1b[K:\n'}
+[5.563080] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:359:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[5.563173] (path_planner) StderrLine: {'line': b'  359 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[5.563241] (path_planner) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.584258] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:375:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[5.584489] (path_planner) StderrLine: {'line': b'  375 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[5.584572] (path_planner) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.592209] (path_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[5.592419] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:359:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[5.592501] (path_planner) StderrLine: {'line': b'  359 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[5.592565] (path_planner) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.612576] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:375:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[5.612796] (path_planner) StderrLine: {'line': b'  375 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[5.612876] (path_planner) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.615480] (-) TimerEvent: {}
+[5.689294] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PathPlanner::planPathCallback(interface::srv::PathPlan_Request_<std::allocator<void> >::SharedPtr, interface::srv::PathPlan_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.689501] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:172:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.689574] (path_planner) StderrLine: {'line': b'  172 |     for (int i=0; \x1b[01;35m\x1b[Ki<ctrl_pts.size()\x1b[m\x1b[K; i++)\n'}
+[5.689630] (path_planner) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.697484] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PathPlanner::mapCallback(sensor_msgs::msg::PointCloud_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.697694] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:206:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktemp_flag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[5.697789] (path_planner) StderrLine: {'line': b'  206 |         bool \x1b[01;35m\x1b[Ktemp_flag\x1b[m\x1b[K = coorToIndex(Eigen::Vector3d(pcl_obs_msg->points[i].x,pcl_obs_msg->points[i].y,pcl_obs_msg->points[i].z), temp_grid_map_id);\n'}
+[5.697863] (path_planner) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.715561] (-) TimerEvent: {}
+[5.757749] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PathPlanner::Optimize(std::vector<Eigen::Matrix<double, 3, 1> >&, const std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&, const std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.757909] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:677:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.757978] (path_planner) StderrLine: {'line': b'  677 |     for (int i=3; \x1b[01;35m\x1b[Ki<=ctrl_pts.size()-6\x1b[m\x1b[K; i++)\n'}
+[5.758021] (path_planner) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.779948] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:722:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.780117] (path_planner) StderrLine: {'line': b'  722 |     for (int i=3; \x1b[01;35m\x1b[Ki<=ctrl_pts.size()-5\x1b[m\x1b[K; i++)\n'}
+[5.780157] (path_planner) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.792578] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:748:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.792753] (path_planner) StderrLine: {'line': b'  748 |     for (int i=0; \x1b[01;35m\x1b[Ki<ctrl_pts.size()\x1b[m\x1b[K;i++)\n'}
+[5.792794] (path_planner) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.792830] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:750:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.792868] (path_planner) StderrLine: {'line': b'  750 |         for (int j=0; \x1b[01;35m\x1b[Kj<base_pts[i].size()\x1b[m\x1b[K; i++)\n'}
+[5.792904] (path_planner) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.800507] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool PathPlanner::check_collision_and_rebound(const std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&, std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.800593] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:828:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.800632] (path_planner) StderrLine: {'line': b'  828 |             for (j = i + 1; \x1b[01;35m\x1b[Kj < ctrl_pts.size()\x1b[m\x1b[K; ++j)\n'}
+[5.800669] (path_planner) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.800705] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:838:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.800742] (path_planner) StderrLine: {'line': b'  838 |             if (\x1b[01;35m\x1b[Kj >= ctrl_pts.size()\x1b[m\x1b[K) // fail to get the obs free point\n'}
+[5.800778] (path_planner) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.815616] (-) TimerEvent: {}
+[5.915828] (-) TimerEvent: {}
+[6.016155] (-) TimerEvent: {}
+[6.116427] (-) TimerEvent: {}
+[6.216701] (-) TimerEvent: {}
+[6.317031] (-) TimerEvent: {}
+[6.417382] (-) TimerEvent: {}
+[6.517656] (-) TimerEvent: {}
+[6.617979] (-) TimerEvent: {}
+[6.718279] (-) TimerEvent: {}
+[6.818548] (-) TimerEvent: {}
+[6.918871] (-) TimerEvent: {}
+[7.019144] (-) TimerEvent: {}
+[7.119403] (-) TimerEvent: {}
+[7.219730] (-) TimerEvent: {}
+[7.320050] (-) TimerEvent: {}
+[7.420424] (-) TimerEvent: {}
+[7.520726] (-) TimerEvent: {}
+[7.621049] (-) TimerEvent: {}
+[7.721367] (-) TimerEvent: {}
+[7.821669] (-) TimerEvent: {}
+[7.921967] (-) TimerEvent: {}
+[8.022302] (-) TimerEvent: {}
+[8.122578] (-) TimerEvent: {}
+[8.222862] (-) TimerEvent: {}
+[8.323195] (-) TimerEvent: {}
+[8.423519] (-) TimerEvent: {}
+[8.523893] (-) TimerEvent: {}
+[8.624214] (-) TimerEvent: {}
+[8.724538] (-) TimerEvent: {}
+[8.824846] (-) TimerEvent: {}
+[8.925168] (-) TimerEvent: {}
+[9.025514] (-) TimerEvent: {}
+[9.125836] (-) TimerEvent: {}
+[9.226227] (-) TimerEvent: {}
+[9.326581] (-) TimerEvent: {}
+[9.426928] (-) TimerEvent: {}
+[9.527251] (-) TimerEvent: {}
+[9.627568] (-) TimerEvent: {}
+[9.727860] (-) TimerEvent: {}
+[9.828122] (-) TimerEvent: {}
+[9.928387] (-) TimerEvent: {}
+[10.028672] (-) TimerEvent: {}
+[10.128957] (-) TimerEvent: {}
+[10.229231] (-) TimerEvent: {}
+[10.329515] (-) TimerEvent: {}
+[10.429826] (-) TimerEvent: {}
+[10.530189] (-) TimerEvent: {}
+[10.630496] (-) TimerEvent: {}
+[10.730757] (-) TimerEvent: {}
+[10.755548] (path_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.cpp:1\x1b[m\x1b[K:\n'}
+[10.755705] (path_planner) StderrLine: {'line': b'/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kbool PathPlanner::collision_residual::operator()(const T*, T*) const [with T = double]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.755748] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ceres/internal/variadic_evaluate.h:55:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, std::false_type, std::integer_sequence<int, Indices ...>) [with Functor = PathPlanner::collision_residual; T = double; int ...Indices = {0}; std::false_type = std::integral_constant<bool, false>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.755799] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ceres/internal/variadic_evaluate.h:77:30:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*) [with ParameterDims = ceres::internal::ParameterDims<false, 3>; Functor = PathPlanner::collision_residual; T = double]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.755835] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ceres/internal/variadic_evaluate.h:106:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluate(const Functor&, const T* const*, T*) [with ParameterDims = ceres::internal::ParameterDims<false, 3>; Functor = PathPlanner::collision_residual; T = double]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.755871] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ceres/autodiff_cost_function.h:208:55:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = PathPlanner::collision_residual; int kNumResiduals = 1; int ...Ns = {3}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.755919] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ceres/autodiff_cost_function.h:201:8:\x1b[m\x1b[K   required from here\n'}
+[10.755975] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:297:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparisons like \xe2\x80\x98\x1b[01m\x1b[KX<=Y<=Z\x1b[m\x1b[K\xe2\x80\x99 do not have their mathematical meaning [\x1b[01;35m\x1b[K-Wparentheses\x1b[m\x1b[K]\n'}
+[10.756014] (path_planner) StderrLine: {'line': b'  297 |             else if (\x1b[01;35m\x1b[K0.0<c\x1b[m\x1b[K<=sd_) {\n'}
+[10.756048] (path_planner) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~^~\x1b[m\x1b[K\n'}
+[10.770788] (path_planner) StderrLine: {'line': b'/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kbool PathPlanner::collision_residual::operator()(const T*, T*) const [with T = ceres::Jet<double, 3>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.770930] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ceres/internal/variadic_evaluate.h:55:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, std::false_type, std::integer_sequence<int, Indices ...>) [with Functor = PathPlanner::collision_residual; T = ceres::Jet<double, 3>; int ...Indices = {0}; std::false_type = std::integral_constant<bool, false>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.770974] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ceres/internal/variadic_evaluate.h:77:30:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*) [with ParameterDims = ceres::internal::ParameterDims<false, 3>; Functor = PathPlanner::collision_residual; T = ceres::Jet<double, 3>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.771013] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ceres/internal/variadic_evaluate.h:106:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluate(const Functor&, const T* const*, T*) [with ParameterDims = ceres::internal::ParameterDims<false, 3>; Functor = PathPlanner::collision_residual; T = ceres::Jet<double, 3>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.771079] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ceres/internal/autodiff.h:349:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::AutoDifferentiate(const Functor&, const T* const*, int, T*, T**) [with int kNumResiduals = 1; ParameterDims = ceres::internal::ParameterDims<false, 3>; Functor = PathPlanner::collision_residual; T = double]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.771114] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ceres/autodiff_cost_function.h:211:69:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = PathPlanner::collision_residual; int kNumResiduals = 1; int ...Ns = {3}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.771148] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ceres/autodiff_cost_function.h:201:8:\x1b[m\x1b[K   required from here\n'}
+[10.771183] (path_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/weiwei/Desktop/project/path_planner/src/path_planner/src/planner.hpp:297:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparisons like \xe2\x80\x98\x1b[01m\x1b[KX<=Y<=Z\x1b[m\x1b[K\xe2\x80\x99 do not have their mathematical meaning [\x1b[01;35m\x1b[K-Wparentheses\x1b[m\x1b[K]\n'}
+[10.830852] (-) TimerEvent: {}
+[10.931120] (-) TimerEvent: {}
+[11.031406] (-) TimerEvent: {}
+[11.131701] (-) TimerEvent: {}
+[11.231973] (-) TimerEvent: {}
+[11.332280] (-) TimerEvent: {}
+[11.432549] (-) TimerEvent: {}
+[11.532812] (-) TimerEvent: {}
+[11.633113] (-) TimerEvent: {}
+[11.733453] (-) TimerEvent: {}
+[11.833741] (-) TimerEvent: {}
+[11.934015] (-) TimerEvent: {}
+[12.034287] (-) TimerEvent: {}
+[12.134571] (-) TimerEvent: {}
+[12.234851] (-) TimerEvent: {}
+[12.335207] (-) TimerEvent: {}
+[12.435474] (-) TimerEvent: {}
+[12.535731] (-) TimerEvent: {}
+[12.636003] (-) TimerEvent: {}
+[12.736317] (-) TimerEvent: {}
+[12.836629] (-) TimerEvent: {}
+[12.936879] (-) TimerEvent: {}
+[13.037175] (-) TimerEvent: {}
+[13.137487] (-) TimerEvent: {}
+[13.237740] (-) TimerEvent: {}
+[13.338045] (-) TimerEvent: {}
+[13.438312] (-) TimerEvent: {}
+[13.538563] (-) TimerEvent: {}
+[13.638855] (-) TimerEvent: {}
+[13.739157] (-) TimerEvent: {}
+[13.839452] (-) TimerEvent: {}
+[13.939753] (-) TimerEvent: {}
+[14.040068] (-) TimerEvent: {}
+[14.140320] (-) TimerEvent: {}
+[14.240561] (-) TimerEvent: {}
+[14.340822] (-) TimerEvent: {}
+[14.441162] (-) TimerEvent: {}
+[14.541440] (-) TimerEvent: {}
+[14.542451] (path_planner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable path_planner\x1b[0m\n'}
+[14.641538] (-) TimerEvent: {}
+[14.741790] (-) TimerEvent: {}
+[14.842127] (-) TimerEvent: {}
+[14.942419] (-) TimerEvent: {}
+[15.042679] (-) TimerEvent: {}
+[15.142946] (-) TimerEvent: {}
+[15.243316] (-) TimerEvent: {}
+[15.343629] (-) TimerEvent: {}
+[15.443971] (-) TimerEvent: {}
+[15.544307] (-) TimerEvent: {}
+[15.625206] (path_planner) StdoutLine: {'line': b'[100%] Built target path_planner\n'}
+[15.632332] (path_planner) CommandEnded: {'returncode': 0}
+[15.644385] (-) TimerEvent: {}
+[15.650832] (path_planner) JobProgress: {'identifier': 'path_planner', 'progress': 'install'}
+[15.652305] (path_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/weiwei/Desktop/project/path_planner/build/path_planner'], 'cwd': '/home/weiwei/Desktop/project/path_planner/build/path_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'weiwei'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '2827'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/weiwei/Desktop/project/path_planner/install/interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/weiwei'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2382'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e7a20147df8bcd3e3d86d7966681334e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'weiwei'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:106748'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'weiwei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/weiwei/Desktop/thirdParty/anaconda3/condabin:/home/weiwei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/weiwei/Desktop/application/jdk1.8.0_381/bin:/home/weiwei/Desktop/application/jdk1.8.0_381/jre/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hello-world:@/tmp/.ICE-unix/2916,unix/hello-world:/tmp/.ICE-unix/2916'), ('INVOCATION_ID', 'c91a770db6554f12bc16f71f16d3c20a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20a6be39_b671_4751_8ede_b8e9f07352c3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-13a2bd1e6a.sock'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/weiwei/Desktop/project/path_planner/install/interface:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/weiwei/Desktop/thirdParty/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('CLASSPATH', '.:/home/weiwei/Desktop/application/jdk1.8.0_381/lib:/home/weiwei/Desktop/application/jdk1.8.0_381/jre/lib'), ('QT_IM_MODULE', 'fcitx'), ('JAVA_HOME', '/home/weiwei/Desktop/application/jdk1.8.0_381'), ('PWD', '/home/weiwei/Desktop/project/path_planner/build/path_planner'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/weiwei/Desktop/thirdParty/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e7a20147df8bcd3e3d86d7966681334e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/weiwei/Desktop/project/path_planner/install/interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/weiwei/Desktop/project/path_planner/install/interface:/opt/ros/foxy')]), 'shell': False}
+[15.659072] (path_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.660805] (path_planner) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/lib/path_planner/path_planner\n'}
+[15.669031] (path_planner) StdoutLine: {'line': b'-- Set runtime path of "/home/weiwei/Desktop/project/path_planner/install/path_planner/lib/path_planner/path_planner" to ""\n'}
+[15.669231] (path_planner) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/ament_index/resource_index/package_run_dependencies/path_planner\n'}
+[15.669304] (path_planner) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/ament_index/resource_index/parent_prefix_path/path_planner\n'}
+[15.669409] (path_planner) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/environment/ament_prefix_path.sh\n'}
+[15.669466] (path_planner) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/environment/ament_prefix_path.dsv\n'}
+[15.669530] (path_planner) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/environment/path.sh\n'}
+[15.669590] (path_planner) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/environment/path.dsv\n'}
+[15.669685] (path_planner) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/local_setup.bash\n'}
+[15.669728] (path_planner) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/local_setup.sh\n'}
+[15.669765] (path_planner) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/local_setup.zsh\n'}
+[15.669821] (path_planner) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/local_setup.dsv\n'}
+[15.669860] (path_planner) StdoutLine: {'line': b'-- Installing: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/package.dsv\n'}
+[15.669897] (path_planner) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/ament_index/resource_index/packages/path_planner\n'}
+[15.669935] (path_planner) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/cmake/path_plannerConfig.cmake\n'}
+[15.669980] (path_planner) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/cmake/path_plannerConfig-version.cmake\n'}
+[15.670026] (path_planner) StdoutLine: {'line': b'-- Up-to-date: /home/weiwei/Desktop/project/path_planner/install/path_planner/share/path_planner/package.xml\n'}
+[15.671183] (path_planner) CommandEnded: {'returncode': 0}
+[15.696760] (path_planner) JobEnded: {'identifier': 'path_planner', 'rc': 0}
+[15.697338] (-) EventReactorShutdown: {}
