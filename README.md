@@ -6,7 +6,7 @@ git clone https://github.com/weiwei-dotcom/path_planner.git
 cd path_planner
 colcon build
 source install/setup.bash
-ros2 launch path_planner.luanch.py
+ros2 launch path_planner.launch.py
 ```
 If you find this work useful or interesting, please kindly give us a star :star:, thanks!:grinning:
 
